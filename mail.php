@@ -35,9 +35,7 @@ try {
   $mail->setFrom('tonymind58@gmail.com'); // Адрес самой почты и имя отправителя
 
   // Получатель письма
-  $mail->addAddress('rycoka5@mail.ru');
-  $mail->addAddress('anton.yermakovich@yandex.by');
-  $mail->addAddress('tonymind58@gmail.com');
+  $mail->addAddress('knuhov4elba@gmail.com');
 
   // Отправка сообщения
   $mail->isHTML(true);
