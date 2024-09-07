@@ -20,6 +20,7 @@ body {
   min-height: 100vh;
   font-family: "Nunito Sans", sans-serif;
   background: var(--light-color);
+  overflow-x: hidden;
 }
 
 .container {
@@ -462,16 +463,18 @@ body {
   background: var(--red-color);
   color: var(--light-color);
 }
-.footer p {
+.footer a {
   font-size: 20px;
   font-weight: 700;
   line-height: 27.28px;
+  text-decoration: none;
+  color: var(--light-color);
 }
-.footer p.footer__up {
+.footer a.footer__up {
   display: flex;
   cursor: pointer;
 }
-.footer p.footer__up svg {
+.footer a.footer__up svg {
   fill: var(--light-color);
   width: 24px;
   height: 24px;
@@ -723,13 +726,13 @@ body {
     font-weight: 700;
     line-height: 30.59px;
   }
-  .footer p.footer__up {
+  .footer a.footer__up {
     font-size: 65.51px;
     font-weight: 700;
     line-height: 89.35px;
     align-items: center;
   }
-  .footer p.footer__up svg {
+  .footer a.footer__up svg {
     width: 60px;
     height: 60px;
   }
@@ -761,6 +764,7 @@ body {
   }
   .about__right {
     gap: 20px;
+    place-items: flex-start;
   }
   .title {
     font-size: 40px;
@@ -773,6 +777,9 @@ body {
   .about__text {
     font-size: 18px;
     line-height: 24.55px;
+  }
+  .about__item {
+    text-align: center;
   }
   .about__item h3 {
     font-size: 64.72px;
@@ -794,9 +801,26 @@ body {
   }
   .values .list__item {
     overflow: hidden;
+    padding: 25px;
+  }
+  .values .list__item:nth-child(1) .list__img {
+    width: 160px;
+    height: 160px;
+  }
+  .values .list__item:nth-child(2) .list__img {
+    width: 160px;
+    height: 160px;
+  }
+  .values .list__item:nth-child(3) .list__img {
+    width: 160px;
+    height: 160px;
+  }
+  .values .list__item:nth-child(4) .list__img {
+    width: 160px;
+    height: 200px;
   }
   .values .list__img {
-    right: -45px;
+    right: -34px;
   }
   .values .list__text {
     min-height: 200px;

@@ -278,7 +278,7 @@
       line-height: 30.59px;
     }
 
-    p.footer__up {
+    a.footer__up {
       font-size: 65.51px;
       font-weight: 700;
       line-height: 89.35px;
@@ -325,6 +325,7 @@
 
     &__right {
       gap: 20px;
+      place-items: flex-start;
     }
   }
 
@@ -332,7 +333,6 @@
     font-size: 40px;
     line-height: 54.56px;
   }
-
   .about__desc p {
     font-size: 22.58px;
     line-height: 30.81px;
@@ -344,6 +344,7 @@
   }
 
   .about__item {
+    text-align: center;
     h3 {
       font-size: 64.72px;
       line-height: 88.28px;
@@ -368,10 +369,31 @@
 
       &__item {
         overflow: hidden;
+        padding: 25px;
+
+        &:nth-child(1) .list__img {
+          width: 160px;
+          height: 160px;
+        }
+
+        &:nth-child(2) .list__img {
+          width: 160px;
+          height: 160px;
+        }
+
+        &:nth-child(3) .list__img {
+          width: 160px;
+          height: 160px;
+        }
+
+        &:nth-child(4) .list__img {
+            width: 160px;
+            height: 200px;
+          }
       }
 
       &__img {
-        right: -45px;
+        right: -34px;
       }
 
       &__text {

@@ -4,14 +4,17 @@
   background: var(--red-color);
   color: var(--light-color);
 
-  p {
+  a {
     font-size: 20px;
     font-weight: 700;
     line-height: 27.28px;
+    text-decoration: none;
+    color: var(--light-color);
 
     &.footer__up {
       display: flex;
       cursor: pointer;
+      
 
       svg {
         fill: var(--light-color);
