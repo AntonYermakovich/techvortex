@@ -1,0 +1,51 @@
+.header {
+  width: 100%;
+//   box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.5);
+  padding: 30px 0;
+  position: sticky;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    text-decoration: none;
+    font-size: 47.37px;
+    font-weight: 500;
+    line-height: 64.61px;
+    color: var(--dark-color);
+    transition: .15s;
+
+    span {
+        font-weight: 900;
+    }
+
+    &:hover {
+        opacity: .7;
+    }
+  }
+
+  .menu {
+    display: flex;
+    gap: 67px;
+
+    &__item {
+        list-style: none;
+    }
+
+    &__link {
+        text-decoration: none;
+        font-size: 27.75px;
+        font-weight: 300;
+        line-height: 37.85px;
+        color: var(--dark-color);
+        transition: .15s;
+
+        &:hover {
+            color: var(--red-color);
+        }
+    }
+  }
+}

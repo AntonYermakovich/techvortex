@@ -1,0 +1,30 @@
+.services {
+  padding: 50px 0 150px;
+
+  &__list {
+    margin-top: 100px;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+    background: var(--dark-color);
+    color: var(--light-color);
+    border-radius: 20px;
+    padding: 30px 20px;
+
+    h3 {
+      font-size: 37.69px;
+      font-weight: 700;
+      line-height: 51.41px;
+    }
+
+    p {
+      font-size: 25.37px;
+      font-weight: 400;
+      line-height: 34.61px;
+    }
+  }
+}

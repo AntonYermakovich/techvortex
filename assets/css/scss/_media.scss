@@ -1,0 +1,58 @@
+@media (max-width: 1400px) {
+    .container {
+        max-width: 1200px;
+    }
+
+    .hero__text {
+        padding-top: 70px;
+    }
+
+    .hero__text h1 {
+        line-height: 50.2px;
+        font-size: 44px;
+    }
+
+    .title {
+        font-size: 50px;
+        padding: 0 20px;
+    }
+
+    .about__desc p {
+        font-size: 22px;
+        line-height: 24.1px;
+    }
+
+    .about__text {
+        font-size: 24px;
+        line-height: 32.92px;
+    }
+
+    .about__item h3 {
+        font-size: 100.4px;
+        line-height: 110.95px;
+    }
+
+    .about__item h4 {
+        padding: 0 16px;
+        font-size: 30px;
+    }
+
+    .about__item p {
+        font-size: 22.05px;
+        line-height: 30.71px;
+    }
+
+    .values .list__text h3 {
+        font-size: 34.59px;
+        line-height: 46.37px;
+    }
+
+    .values .list__text p {
+        font-size: 20px;
+        line-height: 25.61px;
+    }
+
+    .values .list__item:nth-child(2) .list__img {
+        width: 230px;
+    }
+}
