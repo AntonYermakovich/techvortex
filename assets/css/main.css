@@ -466,18 +466,18 @@ body.hidden {
   background: var(--red-color);
   color: var(--light-color);
 }
-.footer a {
+.footer__up {
   font-size: 20px;
   font-weight: 700;
   line-height: 27.28px;
   text-decoration: none;
   color: var(--light-color);
 }
-.footer a.footer__up {
+.footer__up.footer__up {
   display: flex;
   cursor: pointer;
 }
-.footer a.footer__up svg {
+.footer__up.footer__up svg {
   fill: var(--light-color);
   width: 24px;
   height: 24px;
@@ -726,8 +726,7 @@ body.hidden {
     margin: 55px 0 15px;
   }
   .footer__link {
-    font-size: 22.42px;
-    font-weight: 700;
+    font-size: 16px;
     line-height: 30.59px;
   }
   .footer a.footer__up {
