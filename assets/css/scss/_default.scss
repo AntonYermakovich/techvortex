@@ -22,13 +22,17 @@ body {
   font-family: "Nunito Sans", sans-serif;
   background: var(--light-color);
   overflow-x: hidden;
+
+  &.hidden {
+    overflow: hidden;
+  }
 }
 
 .container {
-  max-width: 1750px;
+  max-width: 1780px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 30px;
 }
 
 .title {
