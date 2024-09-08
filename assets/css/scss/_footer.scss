@@ -10,16 +10,15 @@
     line-height: 27.28px;
     text-decoration: none;
     color: var(--light-color);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
 
-    &.footer__up {
-      display: flex;
-      cursor: pointer;
-      
-      svg {
-        fill: var(--light-color);
-        width: 24px;
-        height: 24px;
-      }
+    img {
+      // transform: rotate(-90deg);
+      width: 12px;
+      height: 24px;
     }
   }
 
@@ -40,11 +39,11 @@
     font-size: 20px;
     font-weight: 700;
     line-height: 27.28px;
-    transition: .15s;
+    transition: 0.15s;
     color: var(--light-color);
 
     &:hover {
-        color: var(--dark-color);
+      color: var(--dark-color);
     }
   }
 }

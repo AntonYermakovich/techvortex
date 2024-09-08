@@ -472,14 +472,13 @@ body.hidden {
   line-height: 27.28px;
   text-decoration: none;
   color: var(--light-color);
-}
-.footer__up.footer__up {
   display: flex;
+  align-items: center;
+  gap: 10px;
   cursor: pointer;
 }
-.footer__up.footer__up svg {
-  fill: var(--light-color);
-  width: 24px;
+.footer__up img {
+  width: 12px;
   height: 24px;
 }
 .footer__container {
@@ -735,8 +734,8 @@ body.hidden {
     line-height: 89.35px;
     align-items: center;
   }
-  .footer a.footer__up svg {
-    width: 60px;
+  .footer a.footer__up img {
+    width: 30px;
     height: 60px;
   }
 }
