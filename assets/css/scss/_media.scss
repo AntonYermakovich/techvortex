@@ -264,6 +264,16 @@
       align-items: center;
     }
 
+    &__left {
+      order: 2;
+      text-align: center;
+    }
+
+    &__inn {
+      font-size: 16px;
+      margin-top: 20px;
+    }
+
     &__copy {
       order: 2;
     }

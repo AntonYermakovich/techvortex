@@ -119,3 +119,10 @@ AOS.init({
   offset: 120,
   once: true,
 });
+
+const header = document.querySelector(".header");
+window.addEventListener("scroll", () => {
+  window.scrollY > 1
+    ? header.classList.add("header__sticky")
+    : header.classList.remove("header__sticky");
+});

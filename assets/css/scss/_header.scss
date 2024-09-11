@@ -1,6 +1,16 @@
 .header {
   width: 100%;
   padding: 30px 0;
+  position: sticky;
+  top: 0;
+  background: var(--light-color);
+  z-index: 5;
+  transition: .25s;
+  
+  &__sticky {
+    box-shadow: 0 0 5px rgba(0,0,0,.5);
+    padding: 10px 0;
+  }
 
   &__container {
     display: flex;
