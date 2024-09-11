@@ -521,8 +521,12 @@ body.hidden {
   font-size: 20px;
 }
 .footer__inn span {
+  color: var(--light-color);
+}
+.footer__inn span a {
   text-decoration: none;
   color: var(--light-color);
+  pointer-events: none;
 }
 
 @media (max-width: 1400px) {

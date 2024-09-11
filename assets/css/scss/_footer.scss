@@ -57,8 +57,13 @@
     font-size: 20px;
 
     span {
-      text-decoration: none;
       color: var(--light-color);
+
+      a {
+        text-decoration: none;
+        color: var(--light-color);
+        pointer-events: none;
+      }
     }
   }
 }
