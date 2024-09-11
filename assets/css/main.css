@@ -520,6 +520,10 @@ body.hidden {
   flex-direction: column;
   font-size: 20px;
 }
+.footer__inn span {
+  text-decoration: none;
+  color: var(--light-color);
+}
 
 @media (max-width: 1400px) {
   .container {

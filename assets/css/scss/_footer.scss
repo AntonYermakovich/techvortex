@@ -55,5 +55,10 @@
     display: flex;
     flex-direction: column;
     font-size: 20px;
+
+    span {
+      text-decoration: none;
+      color: var(--light-color);
+    }
   }
 }
